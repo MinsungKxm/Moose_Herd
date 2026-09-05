@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3492274294412060780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3798430270113448575}
+  - component: {fileID: -135603461139250916}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3798430270113448575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492274294412060780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.11024, y: 0, z: 4.4123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-135603461139250916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492274294412060780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9bf0ddcc383fa43820cbf3cfbc9954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
+  animalPrefabs:
+  - {fileID: 8742115400128119195, guid: 6986c440d75139941856d6a696037e7a, type: 3}
+  - {fileID: 7609615862268356381, guid: b4150c86fbb60114daebd54c51d20531, type: 3}
+  - {fileID: 1606153053351982776, guid: f366158c92aa4ed448460f39cc0e0ac1, type: 3}
+  - {fileID: 4817266455247108496, guid: 90843929c67113c428042d5b0f8e85c4, type: 3}
+  - {fileID: 6635651893920333506, guid: bd587e73937eef8409befb892104519a, type: 3}
+  - {fileID: 4550357461731377407, guid: 37a5fe6d04020d74ead441cc366847e2, type: 3}
+  - {fileID: 3735278543148013851, guid: 17727ebe58d338d49964ae7f4822fab0, type: 3}
+  - {fileID: 3212506942269527734, guid: 07cf4d8eb8e3f1c47a6b7a4f0c71178d, type: 3}
+  - {fileID: 1036365632282224573, guid: 135ea400a2dfe5044a05d8e1fbb08aa7, type: 3}
+  - {fileID: 817314795372643122, guid: 7061b0564a78f3d45be634a502cb3c0e, type: 3}
+  spawnAction:
+    m_Name: Spawn
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 47abb671-6d65-4a0a-9d5b-e7d9580b1e40
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: c58f1b15-acd7-48a7-a7d7-1ec2e2403c9f
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Spawn
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
