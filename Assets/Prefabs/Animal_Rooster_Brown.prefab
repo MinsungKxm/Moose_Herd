@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 4334159851113264960}
   - component: {fileID: 4407383001332990158}
   - component: {fileID: 7268771188541419191}
+  - component: {fileID: 3829707242086027504}
   m_Layer: 0
   m_Name: Animal_Rooster_Brown
   m_TagString: Untagged
@@ -571,6 +572,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 9.516969, y: 51.826645, z: 24.087679}
   m_Center: {x: -0.042574406, y: 25.41333, z: -0.87593436}
+--- !u!114 &3829707242086027504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212506942269527734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 336df4a4ea5c8a8489dc6872cfad51d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &3426889682994227468
 GameObject:
   m_ObjectHideFlags: 0
