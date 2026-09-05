@@ -4,7 +4,7 @@ Moose Herd is a fixed-camera survival game built with Unity. Move sideways along
 
 ## Play or Download
 
-- [Play Moose Herd in your browser on Unity Play]([https://play.unity.com/en/games/5e9360d7-14a4-4a51-aebc-a1d22e8d4c9a/mooseherdweb])
+- [Play Moose Herd in your browser on Unity Play](https://play.unity.com/en/games/5e9360d7-14a4-4a51-aebc-a1d22e8d4c9a/mooseherdweb)
 
 Replace the placeholder URLs above after the game has been published.
 
