@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 811374277627021988}
   - component: {fileID: 5276002501256993253}
   - component: {fileID: 6199057678464894547}
+  - component: {fileID: 4334159851113264960}
   m_Layer: 0
   m_Name: Animal_Rooster_Brown
   m_TagString: Untagged
@@ -506,6 +507,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 0.05
+--- !u!114 &4334159851113264960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212506942269527734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133d3785e71b3cc48a73a355884230a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOutofBounds
+  topBound: 30
+  lowerBound: -10
 --- !u!1 &3426889682994227468
 GameObject:
   m_ObjectHideFlags: 0
